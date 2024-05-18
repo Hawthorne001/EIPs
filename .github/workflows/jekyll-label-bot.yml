@@ -10,7 +10,7 @@ concurrency:
 name: Jekyll Label Bot
 jobs:
   jekyll-label-action:
-    name: Label
+    name: MainH
     runs-on: ubuntu-latest
     
     steps:
