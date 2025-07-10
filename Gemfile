@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
+gem "minima", "~> 2.5", ">= 2.5.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -25,4 +25,4 @@ gem "html-proofer", ">= 5.0.8"
 
 gem "eip_validator", ">=0.8.2"
 
-gem "webrick", "~> 1.8" # needed for macOS builds
+gem "webrick", "~> 1.8", ">= 1.8.2" # needed for macOS builds
